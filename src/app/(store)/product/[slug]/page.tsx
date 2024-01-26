@@ -1,5 +1,6 @@
 import { api } from '@/data/api'
 import { Product } from '@/data/types/product'
+import { env } from '@/env'
 import { Metadata } from 'next'
 import Image from 'next/image'
 
@@ -27,6 +28,7 @@ export async function generateMetadata({
   const product = await getProduct(params.slug)
 
   return {
+    metadataBase: new URL(env.APP_URL),
     title: product.title,
   }
 }
