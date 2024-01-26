@@ -1,3 +1,4 @@
+import { AddToCartButton } from '@/components/add-to-cart-button'
 import { api } from '@/data/api'
 import { Product } from '@/data/types/product'
 import { env } from '@/env'
@@ -113,7 +114,7 @@ export default async function ProductPage({ params }: ProductProps) {
           </div>
         </div>
 
-        {/* <AddToCartButton productId={product.id} /> */}
+        <AddToCartButton productId={product.id} />
       </div>
     </div>
   )
