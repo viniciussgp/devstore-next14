@@ -1,6 +1,6 @@
-<h4 align="center" style="font-size: 2rem;">
+<p align="center" style="font-size: 2rem;font-weight: bold;">
   devstore
-</h4>
+</p>
 
 <p align="center">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/viniciussgp/devstore-next14">
@@ -23,7 +23,7 @@
 
 ## 💻 Sobre o projeto
 
-Projeto de e-commerce para fins de estudo do Next.js 14.
+O objetivo principal deste projeto é explorar os recursos avançados do Next.js 14 e aplicá-los em um contexto prático de e-commerce. Além disso, visa aprofundar o entendimento de conceitos como roteamento dinâmico, geração estática e dinâmica de páginas, otimização de desempenho, entre outros aspectos essenciais para a construção de aplicações web modernas e eficientes.
 
 ## 🎨 Layout
 
@@ -49,10 +49,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ```bash
 # Clone o repositório
 git clone https://github.com/viniciussgp/devstore-next14.git
+
 # Acesse a pasta do projeto
 cd devstore-next14
+
 # Instale as dependências
 yarn install
+
 # Execute a aplicação
 yarn dev
 ```
