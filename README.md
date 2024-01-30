@@ -1,6 +1,4 @@
-<p align="center" style="font-size: 2rem;font-weight: bold;">
-  devstore
-</p>
+<h1 align="center" dir="auto">devstore</h1> 
 
 <p align="center">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/viniciussgp/devstore-next14">
