@@ -14,6 +14,9 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'
+      
+      - name: Install JS dependencies
+        run: yarn install
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
